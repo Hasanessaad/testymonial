@@ -1,9 +1,11 @@
-[name="testymonial"]
 
-body{
+
+[name="testemunhos"] .bachground{
+    
     background-image: url(background.png);
 }
-h1{
+
+[name="testemunhos"] h1{
     height: 150vh;
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
 }
-.move-me{
+[name="testemunhos"] .move-me{
     width:512px;
     height:192px;
     background-color: rgb(255, 255, 255);
@@ -23,7 +25,7 @@ h1{
     top: 200px;
     left: 100px;
 }
-.move-me1{
+[name="testemunhos"] .move-me1{
     width:512px;
     height:192px;
     background-color: rgb(255, 255, 255);
@@ -36,7 +38,7 @@ h1{
     top: 200px;
     right: 100px;
 }
-.move-me2{
+[name="testemunhos"] .move-me2{
     width:512px;
     height:192px;
     background-color: rgb(255, 255, 255);
@@ -49,7 +51,7 @@ h1{
     top: 430px;
     left: 100px;
 }
-.move-me3{
+[name="testemunhos"] .move-me3{
     width:512px;
     height:192px;
     background-color: rgb(255, 255, 255);
@@ -62,16 +64,16 @@ h1{
     top: 430px;
     right: 100px;
 }
-h4{
+[name="testemunhos"] h4{
     padding-top: 5px;
     padding-left: 20px;
     font-family: 'Oswald', sans-serif;
     color:rgba(122, 27, 27, 0.977);
 }
-p{
+[name="testemunhos"] p{
     padding: 10px;
 }
-.star{
+[name="testemunhos"] .star{
     color: rgb(217, 186, 12);
     padding-left: 20px;
 }
